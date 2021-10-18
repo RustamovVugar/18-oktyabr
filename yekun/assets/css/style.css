@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#006eff), to(rgba(255, 255, 255, 0.829)));
+  background-image: linear-gradient(to right, #006eff, rgba(255, 255, 255, 0.829));
+  min-height: 100vh;
+  color: white;
+}
+
+body h1 {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 50px;
+  font-style: italic;
+}
+
+body .inputs {
+  padding: 50px;
+}
+
+body .inputs #name {
+  background-color: white;
+  height: 35px;
+  border: none;
+  margin-right: 40px;
+  width: 200px;
+}
+
+body .inputs #surname {
+  background-color: white;
+  height: 35px;
+  border: none;
+  margin-right: 40px;
+  width: 200px;
+}
+
+body .inputs #age {
+  background-color: white;
+  height: 35px;
+  border: none;
+  margin-right: 20px;
+  width: 200px;
+}
+
+body .inputs #button {
+  width: 100px;
+  height: 40px;
+  background-color: darkblue;
+  color: white;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+}
+
+body .inputs #button:hover {
+  background-color: darkcyan;
+}
+
+body .table {
+  color: midnightblue;
+  font-size: 20px;
+}
+
+body .btn {
+  height: 30px;
+  width: 40px;
+}

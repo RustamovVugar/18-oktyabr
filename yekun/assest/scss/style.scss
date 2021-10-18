@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgb(0, 110, 255) ,rgba(255, 255, 255, 0.829));
+    min-height: 100vh;
+    color: white;
+    h1{
+        text-align: center;
+        padding-top: 70px;
+        font-size: 50px;
+        font-style: italic;
+    }
+    .inputs{
+        padding:50px;
+        #name{
+            background-color: white;
+            height: 35px;
+            border: none;
+            margin-right: 40px;
+            width:200px
+        }
+        #surname{
+            background-color: white;
+            height: 35px;
+            border: none;
+            margin-right: 40px;
+            width:200px
+        }
+         #age{
+            background-color: white;
+            height: 35px;
+            border: none;
+            margin-right: 20px;
+            width:200px
+         }
+        
+         
+         #button{
+             width:100px;
+             height:40px;
+             background-color:darkblue;
+             color: white;
+             font-size: 25px;
+             font-style: bold;
+             text-align: center;
+             &:hover{
+                 background-color:darkcyan;
+             }
+         }
+       
+    }
+    .table{
+        color:midnightblue;
+        font-size: 20px;
+        }
+        .btn{
+            height: 30px;
+            width:40px;
+           
+        }
+    }
+    
+
